@@ -1,28 +1,35 @@
-# advanced-ml-cd
-Machine Learning Continuous Delivery Project
 # Advanced ML Continuous Delivery Project
-
+## Student Info
+Name: Dina Essoka
+Course: Dta Analytics and Artificial Intelligence
+# Advanced ML Continuous Delivery Project
 ## Overview
-This project demonstrates CI/CD for a machine learning model using GitHub Actions.
-
+This project demonstrates Continuous Integration and Continuous Delivery (CI/CD) for a machine learning model using GitHub Actions.
 ## Features
-- FastAPI/Flask model serving
-- Docker containerization
-- CI/CD pipeline with automated testing
-- Sentiment analysis model (ONNX)
-
-## How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
-
-2. Run the app:
-   python app/main.py
-
-3. Test:
-   pytest tests/
-
-## CI/CD
-GitHub Actions automatically:
-- Builds the project
-- Runs tests
-- Validates the pipeline
+* Machine Learning model served via API
+* Containerization using Docker
+* Automated CI/CD pipeline
+* Automated testing with pytes
+## Prerequisites
+* Python 3.8+
+* pip
+## Installation
+```bash
+pip install -r requirements.txt
+```
+## Run the Application
+```bash
+python app/main.py
+```
+## Run Tests
+```bash
+pytest tests/
+``
+## CI/CD Pipeline
+The GitHub Actions pipeline automatically:
+* Installs dependencies
+* Starts the application
+* Runs tests
+* Validates the build
+## Repository
+All code is available in this repository.
