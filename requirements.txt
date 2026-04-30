@@ -1,2 +1,6 @@
-fastapi
-uvicorn
+flask
+torch
+transformers
+onnxruntime
+pytest
+requests
